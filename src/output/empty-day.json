@@ -1,0 +1,836 @@
+{
+  "group1": {
+    "mouse1": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse2": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse3": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse4": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse5": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse6": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse7": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse8": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse9": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse10": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse11": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse12": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    }
+  },
+  "group2": {
+    "mouse1": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse2": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse3": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse4": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse5": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse6": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse7": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse8": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse9": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse10": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse11": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse12": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    }
+  },
+  "group3": {
+    "mouse1": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse2": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse3": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse4": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse5": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse6": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse7": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse8": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse9": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse10": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse11": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    },
+    "mouse12": {
+      "run1": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run2": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      },
+      "run3": {
+        "Quadrant 1": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 2": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 3": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Quadrant 4": {"ZeitMs": "", "Besuche": "", "Strecke": "", "ZeitTotal": "", "Latenz": ""},
+        "Total": {"ZeitMs": "", "Besuche": "", "Strecke": "", "Geschw": ""}
+      }
+    }
+  }
+}
