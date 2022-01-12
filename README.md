@@ -27,7 +27,7 @@ For every run the [config file](./src/config.js) needs to be adjusted like so:
 ```
 
 Then run this command in your Terminal from the root directory
-`yarn run-parser`
+`yarn run-parser` / `npm run-parser`
 
 ## Background
 
