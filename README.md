@@ -12,7 +12,7 @@ To run this code you need the following dependencies:
 - [yarn](https://www.npmjs.com/package/yarn) or [npm](npmjs.com)
 - [node](https://nodejs.org/en/) (I recommend using [nvm](https://github.com/nvm-sh/nvm) for this)
 
-Afterwards you should be able to install the project specific node packages with `yarn`
+Afterwards you should be able to install the project specific node packages with `yarn` / `npm i`
 
 ### Running the parser
 
