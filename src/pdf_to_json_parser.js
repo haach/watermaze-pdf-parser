@@ -11,7 +11,7 @@ function clone(a) {
 }
 
 const writeJsonFileToFS = (name, json) => {
-  fs.writeFile(`${config.JSON_OUTPUT_DIRECTORY}/${name}.json`, JSON.stringify(json), (err) => {
+  fs.writeFile(`${config.JSON_OUTPUT_DIRECTORY}/${name}.json`, JSON.stringify(json), {flag: 'wx'}, (err) => {
     if (err) console.error('error', err);
   });
 };
