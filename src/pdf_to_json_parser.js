@@ -61,6 +61,13 @@ const jsonIntoEmpty = (existingResult, json) => {
   let textPerPage = content['formImage']['Pages'].flatMap((page) => page['Texts']);
   let textObjects = textPerPage.flatMap((textObject) => textObject && textObject.R);
   let decodedArray = textObjects.map((obj) => decodeURIComponent(obj.T).trim());
+  console.log(
+    `decodedArray`,
+    decodedArray.reduce((acc, val, idx) => {
+      acc[idx] = val;
+      return acc;
+    }, {})
+  );
   const runData = identifyRun(decodedArray);
   existingResult[`group${runData.group}`][`mouse${runData.mouse}`][`run${runData.run}`] = writeRunToData(decodedArray);
 };
@@ -71,18 +78,18 @@ const parsePDFs = async (day) => {
 
   for (const group of index.groups) {
     const directory = `${config.PDF_INPUT_DIRECTORY}/Tag ${day}/Gruppe ${group}/`;
-    const arrayOfRunFiles = fs.readdirSync(directory);
+    const arrayOfRunFiles = fs.readdirSync(directory).filter((el) => el !== '.DS_Store');
     let pdfs = [];
-    await (async () => {
-      await Promise.all(
-        arrayOfRunFiles.map(async (fileName) => {
+
+    for (const fileName of arrayOfRunFiles) {
+      await (async () => {
+        try {
           // Set up the pdf parser
           let pdfParser = new PDFParser(this, 1);
 
           // Load the pdf document
           pdfParser.loadPDF(`${directory}/${fileName}`);
 
-          // Parsed the patient
           let pdfData = await new Promise(async (resolve, reject) => {
             // On data ready
             pdfParser.on('pdfParser_dataReady', (_pdfData) => {
@@ -92,9 +99,13 @@ const parsePDFs = async (day) => {
           });
           // Add the pdfData to the pdfs array
           pdfs.push(pdfData);
-        })
-      );
-    })();
+          return 'success';
+        } catch (err) {
+          console.log('Error parsing pdf', fileName, '\n', err);
+        }
+      })();
+    }
+
     for (const pdfJSON of pdfs) {
       jsonIntoEmpty(existingResult, pdfJSON);
     }
