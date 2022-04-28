@@ -1,20 +1,21 @@
 const fs = require('fs');
+const path = require('path');
 const {config} = require('./config');
 const index = {};
 
-const recursiveFolderRead = (path, prefix) => {
+const recursiveFolderRead = (_path, prefix) => {
   return fs
-    .readdirSync(path)
+    .readdirSync(_path)
     .filter((el) => el.includes(prefix))
     .map((el) => el.split(prefix)[1]);
 };
 
 const indexDirectoriesInSourcePath = () => {
-  const path = `${config.PDF_INPUT_DIRECTORY}`;
+  const _path = path.join(__dirname, `/input/${config.EXPERIMENT_ID}`);
   try {
-    days = recursiveFolderRead(path, 'Tag ');
+    days = recursiveFolderRead(_path, 'Tag ');
     index.days = days;
-    groups = recursiveFolderRead(`${path}/Tag ${days[0]}`, 'Gruppe ');
+    groups = recursiveFolderRead(`${_path}/Tag ${days[0]}`, 'Gruppe ');
     index.groups = groups;
     return index;
   } catch (err) {

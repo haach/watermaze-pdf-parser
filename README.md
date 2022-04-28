@@ -1,4 +1,5 @@
 # Parse PDF -> JSON -> CSV
+
 ![titleimge](https://user-images.githubusercontent.com/34210193/149134610-bdd6f822-a897-4986-877a-6c27522b03cd.jpg)
 
 ## How to use
@@ -16,13 +17,11 @@ Afterwards you should be able to install the project specific node packages with
 
 ### Running the parser
 
-For every run the [config file](./src/config.js) needs to be adjusted like so:
+For every experiment the [config file](./src/config.js) needs to be updated with the experiment input directory name:
 
 ```
 {
-    PDF_INPUT_DIRECTORY: PUT_PDF_INPUT_DIRECTORY_HERE,
-    JSON_OUTPUT_DIRECTORY: PUT_JSON_OUTPUT_DIRECTORY_HERE
-    CSV_OUTPUT_DIRECTORY: PUT_CSV_OUTPUT_DIRECTORY_HERE
+    EXPERIMENT_ID: YOUR_DIR_NAME
 }
 ```
 

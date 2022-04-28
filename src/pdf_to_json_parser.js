@@ -3,6 +3,7 @@ PDFParser = require('pdf2json');
 const {emptyRun} = require('./emptyStructure');
 const {index} = require('./fileIndexer');
 const {config} = require('./config');
+const path = require('path');
 
 console.log('... 🤖 processing PDFs ');
 
@@ -11,9 +12,14 @@ function clone(a) {
 }
 
 const writeJsonFileToFS = (name, json) => {
-  fs.writeFile(`${config.JSON_OUTPUT_DIRECTORY}/${name}.json`, JSON.stringify(json), {flag: 'wx'}, (err) => {
-    if (err) console.error('error', err);
-  });
+  fs.writeFile(
+    path.join(__dirname, `/output/${config.EXPERIMENT_ID}/pdf_data_by_day/${name}.json`),
+    JSON.stringify(json),
+    {flag: 'wx'},
+    (err) => {
+      if (err) console.log('Could not write results into JSON', err);
+    }
+  );
 };
 
 const getAllIndexes = (arr, val) => {
@@ -61,23 +67,16 @@ const jsonIntoEmpty = (existingResult, json) => {
   let textPerPage = content['formImage']['Pages'].flatMap((page) => page['Texts']);
   let textObjects = textPerPage.flatMap((textObject) => textObject && textObject.R);
   let decodedArray = textObjects.map((obj) => decodeURIComponent(obj.T).trim());
-  console.log(
-    `decodedArray`,
-    decodedArray.reduce((acc, val, idx) => {
-      acc[idx] = val;
-      return acc;
-    }, {})
-  );
   const runData = identifyRun(decodedArray);
   existingResult[`group${runData.group}`][`mouse${runData.mouse}`][`run${runData.run}`] = writeRunToData(decodedArray);
 };
 
 const parsePDFs = async (day) => {
-  const emptyfileContent = fs.readFileSync(`src/output/empty-day.json`);
+  const emptyfileContent = fs.readFileSync(path.join(__dirname, `/output/empty-day.json`));
   const existingResult = JSON.parse(emptyfileContent);
 
   for (const group of index.groups) {
-    const directory = `${config.PDF_INPUT_DIRECTORY}/Tag ${day}/Gruppe ${group}/`;
+    const directory = path.join(__dirname, `/input/${config.EXPERIMENT_ID}/Tag ${day}/Gruppe ${group}/`);
     const arrayOfRunFiles = fs.readdirSync(directory).filter((el) => el !== '.DS_Store');
     let pdfs = [];
 
@@ -109,8 +108,14 @@ const parsePDFs = async (day) => {
     for (const pdfJSON of pdfs) {
       jsonIntoEmpty(existingResult, pdfJSON);
     }
-    writeJsonFileToFS(`results-day-${day}`, existingResult);
   }
+  if (!fs.existsSync(path.join(__dirname, `/output/${config.EXPERIMENT_ID}`))) {
+    fs.mkdirSync(path.join(__dirname, `/output/${config.EXPERIMENT_ID}`));
+  }
+  if (!fs.existsSync(path.join(__dirname, `/output/${config.EXPERIMENT_ID}/pdf_data_by_day`))) {
+    fs.mkdirSync(path.join(__dirname, `/output/${config.EXPERIMENT_ID}/pdf_data_by_day`));
+  }
+  writeJsonFileToFS(`results-day-${day}`, existingResult);
   return 'success';
 };
 
@@ -121,7 +126,8 @@ const generateJSON = async () => {
   }
   for (const day of index.days) {
     await parsePDFs(day);
-    console.log(`🧡 Data for day ${day} written to "${config.JSON_OUTPUT_DIRECTORY}/results-day-${day}.json"`);
+    const jsonPath = path.join(__dirname, `/output/${config.EXPERIMENT_ID}/pdf_data_by_day/results-day-${day}.json`);
+    console.log(`🧡 Data for day ${day} written to "${jsonPath}"`);
   }
 };
 

@@ -2,6 +2,8 @@ const fs = require('fs');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const {config} = require('./config');
 const {index} = require('./fileIndexer');
+const path = require('path');
+
 const header = [
   {id: 'group', title: 'Gruppe'},
   {id: 'mouse', title: 'Mausnr'},
@@ -150,19 +152,24 @@ const mapFileToCSV = (json, day) => {
   });
 
   var csvWriter = new createCsvWriter({
-    path: `${config.CSV_OUTPUT_DIRECTORY}/results-day-${day}.csv`,
+    path: path.join(__dirname, `/output/${config.EXPERIMENT_ID}/csv_results_by_day/results-day-${day}.csv`),
     header: header,
   });
+  if (!fs.existsSync(path.join(__dirname, `/output/${config.EXPERIMENT_ID}/csv_results_by_day`))) {
+    fs.mkdirSync(path.join(__dirname, `/output/${config.EXPERIMENT_ID}/csv_results_by_day`));
+  }
   csvWriter.writeRecords(records).then(() => {
     return true;
   });
 };
 
 const readFileAndCreateCSV = async (day) => {
+  let fileContent;
+  const jsonPath = path.join(__dirname, `/output/${config.EXPERIMENT_ID}/pdf_data_by_day/results-day-${day}.json`);
   try {
-    fileContent = await fs.readFileSync(`${config.JSON_OUTPUT_DIRECTORY}/results-day-${day}.json`);
+    fileContent = await fs.readFileSync(jsonPath);
   } catch (err) {
-    console.error(`Could not read file: ${config.JSON_OUTPUT_DIRECTORY}/results-day-${day}.json`);
+    console.error(`Could not read file: ${jsonPath}`);
   }
   if (fileContent) {
     mapFileToCSV(JSON.parse(fileContent), day);
@@ -173,7 +180,11 @@ const readFileAndCreateCSV = async (day) => {
 const generateCSV = async () => {
   for (const day of index.days) {
     await readFileAndCreateCSV(day);
-    console.log(`Your CSV file for day ${day} is here: ${config.CSV_OUTPUT_DIRECTORY}/results-day-${day}.json`);
+    const targetLocation = path.join(
+      __dirname,
+      `/output/${config.EXPERIMENT_ID}/csv_results_by_day/results-day-${day}.csv`
+    );
+    console.log(`Your CSV file for day ${day} is here: ${targetLocation} `);
   }
   console.log('✅ Done');
 };
